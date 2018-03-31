@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2048</title>
+    <!--引入外部CSS样式-->
+    <link href="css/my_style.css" rel="stylesheet">
+</head>
+<body>
+    <!--存放16个单元格的容器，加了动画之后，它们只是背景了-->
+    <div id="container">
+        <div id="cell_0_0" class="cell"></div>
+        <div id="cell_0_1" class="cell"></div>
+        <div id="cell_0_2" class="cell"></div>
+        <div id="cell_0_3" class="cell"></div>
+        <div id="cell_1_0" class="cell"></div>
+        <div id="cell_1_1" class="cell"></div>
+        <div id="cell_1_2" class="cell"></div>
+        <div id="cell_1_3" class="cell"></div>
+        <div id="cell_2_0" class="cell"></div>
+        <div id="cell_2_1" class="cell"></div>
+        <div id="cell_2_2" class="cell"></div>
+        <div id="cell_2_3" class="cell"></div>
+        <div id="cell_3_0" class="cell"></div>
+        <div id="cell_3_1" class="cell"></div>
+        <div id="cell_3_2" class="cell"></div>
+        <div id="cell_3_3" class="cell"></div>
+    </div>
+
+    <!--引入外部js文件-->
+    <script src="jQuery/jquery-3.3.1.js"></script><!--先引用，不然不认识-->
+    <script src="js/colors.js"></script><!--因为main.js用到了colors.js，所以要放在前面-->
+    <script src="js/anim.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

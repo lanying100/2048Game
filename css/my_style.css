@@ -1,0 +1,19 @@
+div{
+    border-radius:10px;/*圆角边框*/
+}
+
+#container{
+    width:400px;
+    height:400px;
+    background-color: #BBADA0;
+    padding:5px;/*与cell的margin:5px拼成10px间距*/
+}
+
+.cell{
+    float:left;
+    margin:5px;
+    width: 90px;
+    height:90px;
+    background-color: #CCC0B3;
+    position:relative;/*相对定位，为动画做准备*/
+}
